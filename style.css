@@ -1,0 +1,135 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+p {
+    font-size: 20pt; /* Размер шрифта в пунктах */ 
+   }
+.menu {
+  float: center;
+  width: 100%;
+  margin-left: 2px;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #D3D3D3;
+}
+.main {
+  float: center;
+  width: 100%;
+  padding: 0 15px;
+  overflow: hidden;
+  margin-left: 1px;
+}
+.right {
+  background-color: LightGrey;
+  float: right;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+.round {
+  width: 500px; height: 450px; /* Ширина и высота */
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(/example/image/shark.jpg) no-repeat -70px 0; /* Параметры фона */
+  background-size: auto 300px; /* Высота фотографии равна высоте элемента */
+  margin-left: 23%;
+}
+
+a {
+  color:DarkSlateGrey; /* Цвет обычной ссылки */
+  text-decoration: none; /* Убираем подчеркивание */
+  padding: 2px; /* Поля вокруг текста */
+  }
+   a:visited {
+    color: #800080; /* Цвет посещенной ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+   } 
+   a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #708090; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #D3D3D3; /* Цвет фона */
+   }
+.gradient-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.gradient-button:hover {
+  background-position: right center;
+}
+.navbar {
+  overflow: hidden;
+  background-color: 	#708090;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #32CD32;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
