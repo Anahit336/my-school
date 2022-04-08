@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head> 
+ <body>
+<div style=
+  "height: 100%;
+  background: linear-gradient(45deg, #008080, #00FF00); 
+ 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%"</div>
+
+<div class="navbar" style=margin-left: 5%>
+  <a href="#о школе">О школе</a>
+  <a href="#контакты">Контакты</a>
+  <div class="dropdown">
+    <button class="dropbtn">Дисциплины 
+      <i class="f a fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Математика</a>
+      <a href="#">Химия</a>
+      <a href="#">Биология</a>
+      <a href="#">Информатика</a>
+    </div>
+  </div> 
+</div>
+<div style="background-color:#FFFAFA;padding:10px;">
+  <h1 class=main style="color: #778899">МБОУ СОШ №4 г. о. Мытищи</h1>
+  
+</div>
+  <div class="main">
+   <h1 style="color:#FFFFFF;align=left">Сведения об образовательной организации</h1>
+   <p style=text-align:left;>«Сведения об образовательной организации» —</p> 
+    <p style=text-align:left;> специальный раздел, обеспечивающий исполнение приказа Рособрнадзора от 14.08.2020 № 831 
+     «Об утверждении Требований к структуре официального сайта образовательной организации в информационно-телекоммуникационной сети "Интернет" и формату представления информации», и представлен в виде ссылок на другие разделы сайта.</p> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8945.606079238049!2d37.70814516977538!3d55.907737999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5310ec9e91cdf%3A0x6c9b2d99d5c5ba7f!2z0JzQkdCe0KMg0KHQntCoIOKEljQ!5e0!3m2!1sru!2sru!4v1649275934704!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <img src="https://www.mytischi.biz/data/2011/9/21/sch4-1316551890-7680.jpg"class="round" width="100%" hight="100%">
+     
+  </div>
+  <div style="background-color:#FFFAFA;padding:10px;">
+   
+  <h1 class=main style="color: #778899">Классный руководитель</h1>
+  <h2 class=main style="color: #008080">Саткина Светлана Михайловна</h2>
+ <p style=text-align:left;>
+ образование:  Государственное образовательное учреждение высшего профессионального образования «Бийский государственный педагогический институт».  г. Бийск</p> 
+<p style=text-align:left;>год окончания   - 1992 год</p> 
+<p style=text-align:left;>квалификация – учитель начальных классов   </p>      
+</body>
+</html>
+
