@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family:'Courier', monospace">
+</body>
+<style>
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+</style>
+<head>
+  <meta charset="utf-8">
+  <title>Диспансерное наблюдение</title>
+  <style>
+   hr {
+    border: none; /* Убираем границу */
+    background-color: SlateBlue; /* Цвет линии */
+    color: SlateBlue; /* Цвет линии для IE6-7 */
+    height: 30px; /* Толщина линии */
+   }
+  </style>
+</head>
+<body>
+<div class="container">
+<div class="content">
+<h2 style="text-align:center;">Регистрация на сайте <br> "Электронный дневник пацинта"</h2>
+<p>Заполните анкету, чтобы создать акккаунт</p>
+    <hr>
+<form action="/action_page.php">
+  <label for="name"><b>Имя</b></label><p>
+  <input type="text" placeholder="ФИО полностью" name="name"><br><br>
+  <label for="email"><b>Адрес электронной почты</b></label><p>
+  <input type="text" placeholder="Ваша почта" name="email" required><br><br>
+  <label for="phone"><b>Ваш телефон: +7</b></label>
+  <input type="tel" id="phone" name="phone" placeholder="(123) 456 78-90" pattern="([0-9]{3})[0-9]{3} [0-9]{2}-[0-9]{2}"><br><br>
+  <label for="bdaymonth"><b>Дата рождения</b></label><p>
+  <input type="date" id="bdaymonth" name="bdaymonth"><br> <br> <br>
+  <label for="psw"><b>Пароль</b></label>
+  <input type="password" placeholder="Введите пароль" name="psw" required><br><br>
+  <label for="psw-repeat"><b>Подтвердите пароль</b></label>
+  <input type="password" placeholder="Введите пароль" name="psw-repeat" required>
+</form> 
+   <p><b><i><h0 style="color:SlateBlue;">Хотите получить уведомления?</h0></i></b></p>
+  <p><i>Выберите:</i></p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="уведомления" value="да;"style="vertical-align:middle;margin:0;">
+  <label for="html">да;</label><br>
+  <input type="radio" id="html" name="уведомления" value="нет."style="vertical-align:middle;margin:0;">
+  <label for="html">нет.</label><br><br>
+</form>
+<button type="submit" class="registerbtn">Продолжить</button>
+ <hr width="500" size="0" color="SlateBlue" />
+  <div class="container signin">
+    <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+  </div>
+  </div>
+  </form> 
+  
+
+
+</body>
+</html>
